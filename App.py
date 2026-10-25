@@ -1,4 +1,5 @@
 import streamlit as st
+import math as sp
 st.markdown("# Calculo de MOA y MRAD")
 
 n1 = st.slider(label = "Numero", min_value = 0, max_value = 100, value = 0, step = 1)
