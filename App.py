@@ -1,1 +1,1 @@
-st.text(hora del cabron)
+st.text("hora del rey")
