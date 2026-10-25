@@ -1,3 +1,3 @@
 import streamlit as st
 import math
-st.text ("Calibracion de Mira")
+st.markdown ("## Calibracion de Mira")
