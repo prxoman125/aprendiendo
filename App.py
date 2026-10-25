@@ -1,2 +1,2 @@
 import streamlit as st
-st.text("hora del rey")
+st.text("Calculo de MOA y MRAD")
