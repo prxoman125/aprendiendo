@@ -1,4 +1,3 @@
 import streamlit as st
-import math as st
-st = 25
+import math
 st.text ("Calibracion de Mira")
