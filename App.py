@@ -4,8 +4,8 @@ import math
 st.markdown("# Calibracion de Mira")
 
 # Inputs de usuario
-valor = st.number_input(label="Ingresa el valor del objetivo (cm/pulgadas)", min_value=1.0, max_value=100.0, value=1.0)
-valor_dos = st.number_input(label="Ingresa la distancia al objetivo", min_value=1.0, max_value=1000.0, value=1.0)
+valor = st.number_input(label="Ingresa el valor del objetivo (cm/pulgadas)", min_value=1.0, max_value=100.0, value=1.0, step = 1.0)
+valor_dos = st.number_input(label="Ingresa la distancia al objetivo", min_value=1.0, max_value=1000.0, value=1.0, step = 1.0)
 
 # Cálculo en radianes
 # Nota: Asegúrate de usar math.atan en lugar de st.atan (Streamlit no tiene función .atan)
