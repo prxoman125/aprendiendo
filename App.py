@@ -10,7 +10,7 @@ valor_tres = st.number_input(label="Ingresa el valor del objetivo (inch)", min_v
 valor_cuatro = st.number_input(label="Ingresa la distancia al objetivo (yardas)", min_value=1.0, max_value=1000.0, value=1.0, step = 1.0)
 
 radianes = math.atan((valor / 100) / valor_dos)
-radianes_uno = mat.atan((valor_tres * 0.393701) / valor_cuatro * 1.09361)
+radianes_uno = math.atan((valor_tres * 0.393701) / valor_cuatro * 1.09361)
 
 grados = math.degrees(radianes)
 grados_uno = math.degrees(radianes_uno)
