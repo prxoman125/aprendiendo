@@ -4,7 +4,7 @@ import math
 st.markdown("# Calibracion de Mira")
 
 st.subheader("Sistema Métrico")
-valor = st.number_input(label="Ingresa el valor del objetivo (cm)", min_value=1.0, max_value=100.0, value=1.0, step=0.5)
+valor = st.number_input(label="Ingresa el valor del objetivo (centimetros)", min_value=1.0, max_value=100.0, value=1.0, step=0.5)
 valor_dos = st.number_input(label="Ingresa la distancia al objetivo (metros)", min_value=1.0, max_value=1000.0, value=1.0, step=0.5)
 
 radianes = math.atan((valor / 100) / valor_dos)
