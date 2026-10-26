@@ -17,5 +17,5 @@ grados_uno = math.degrees(radianes_uno)
 
 st.write(f"Los radianes actuales son: {radianes:.6f}")
 st.write(f"Los grados actuales son: {grados:.4f}°")
-st.write(f"Los radianes actuales en sistema imperial son: {grdos_uno:.6f}")
-st.write(f"Los grados actuales en sistema imperial son: {grdos_uno:.4f}")
+st.write(f"Los radianes actuales en sistema imperial son: {grados_uno:.6f}")
+st.write(f"Los grados actuales en sistema imperial son: {grados_uno:.4f}")
