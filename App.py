@@ -13,7 +13,7 @@ miliradianes = radianes * 1000
 
 st.write(f"Los radianes actuales son: {radianes:.6f}")
 st.write(f"Los grados actuales son: {grados:.4f}°")
-st.write(f"Los Miliradianes en sistema imperial son: {miliradianes:.4f}")
+st.write(f"Los Miliradianes actuales son: {miliradianes:.4f}")
 
 st.subheader("Sistema Imperial")
 valor_tres = st.number_input(label="Ingresa el valor del objetivo (pulgadas)", min_value=1.0, max_value=5.0, value=1.0, step=0.5)
