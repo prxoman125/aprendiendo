@@ -20,3 +20,5 @@ st.write(f"El valor de los Miliradianes es : {b}")
 c = math.atan((value_inch / 36) / value_yd)
 st.write(f"El valor de los radianes es : {c}")
 
+d = c * 1000
+st.write(f"El valor de los Miliradianes es : {d}")
