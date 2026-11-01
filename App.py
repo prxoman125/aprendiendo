@@ -8,3 +8,6 @@ with st.sidebar:
     distancia_mtrs = st.number_input("Distancia al objetivo y el cañon en Metros", min_value = 1, max_value = 1500, value = 1, step = 1)
 a = math.atan((valor_cm / 100) / distancia_mtrs)
 st.write(f"El valor de los radianes es : {a}")
+
+b = a * 1000
+st.write(f"El valor de los Miliradianes es : {b}")
