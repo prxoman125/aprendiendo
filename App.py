@@ -6,4 +6,4 @@ with st.sidebar:
 
 opcion = st.selectbox(
     "Selecciona o ingresa el valor:",
-    
+)
