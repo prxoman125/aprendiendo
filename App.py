@@ -2,9 +2,6 @@ import streamlit as st
 import math
 st.markdown("# Calibracion Matematica")
 with st.sidebar:
-    st.header("Calibracion Matematica")
+    st.header("Parametros de entrada")
 
-opcion = st.selectbox(
-    "Selecciona o ingresa el valor:",
-    ["Altura entre el cañon y la mira en Centimetros", "Distancia en Metros"]
-)
+valor_cm = st.number_input("Altura entre la mira y el cañon en Centimetros", value = 1, step =1)
