@@ -4,4 +4,5 @@ st.markdown("# Calibracion Matematica")
 with st.sidebar:
     st.header("Parametros de entrada")
 
-    valor_cm = st.number_input("Altura entre la mira y el cañon en Centimetros",min_value = 1, max_value = 50, value = 1, step =1)
+    valor_cm = st.number_input("Altura entre la mira y el cañon en Centimetros", min_value = 1, max_value = 50, value = 1, step =1)
+    distancia_mtrs = st.numer_input("Distancia al objetivo y el cañon", min_value = 1, max_value = 1500, value = 1, step = 1)
