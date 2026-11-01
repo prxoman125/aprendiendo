@@ -6,4 +6,5 @@ with st.sidebar:
 
 opcion = st.selectbox(
     "Selecciona o ingresa el valor:",
+    ["Altura entre el cañon y la mira en Centimetros", "Distancia en Metros"]
 )
