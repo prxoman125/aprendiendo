@@ -19,6 +19,9 @@ st.write(f"El valor de los radianes es : {a}")
 b = a * 1000
 st.write(f"El valor de los Miliradianes es : {b}")
 
+e = (valor_mtrs / 100) / caida_cm
+st.write(f"El valor de los MOA son : {e}")
+
 st.subheader("Sistema Imperial")
 
 c = math.atan((value_inch / 36) / value_yd)
