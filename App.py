@@ -6,10 +6,10 @@ with st.sidebar:
 
     valor_cm = st.number_input("Altura entre la mira y el cañon en Centimetros", min_value = 1, max_value = 50, value = 1, step =1)
     valor_mtrs = st.number_input("Distancia al objetivo y el cañon en Metros", min_value = 1, max_value = 1500, value = 1, step = 1)
-    caida_cm = st.number_input("Caída de la bala en el blanco (cm)", min_value=0.0, max_value=500.0, value=0.0, step=0.5)
+    caida_cm = st.number_input("Caída de la bala en el blanco (cm)", min_value= 1, max_value=500, value=1, step=1)
     value_inch = st.number_input("Altura entre la mira y el cañon en Pulgadas", min_value = 1, max_value = 20, value = 1, step = 1)
     value_yd = st.number_input("Distancia al objetivo y el cañon en Yardas", min_value = 1, max_value = 1640, value = 1, step = 1)
-    caida_inch = st.number_input("Caída de la bala en el blanco (Pulgadas)", min_value=0.0, max_value=200.0, value=0.0, step=0.25)
+    caida_inch = st.number_input("Caída de la bala en el blanco (Pulgadas)", min_value=1, max_value=200, value=1, step= 1)
 
 st.subheader("Sistema Metrico")
 
