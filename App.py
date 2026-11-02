@@ -17,10 +17,10 @@ st.subheader("Sistema Metrico")
 a = math.atan((valor_cm / 100) / valor_mtrs)
 st.write(f"El valor de los radianes es : {a}")
 
-b = a * 1000
+b = (caida_cm / 100) / valor_mtrs * 1000 
 st.write(f"El valor de los Miliradianes es : {b}")
 
-e = (valor_mtrs / 100) / caida_cm
+e = caida_cm / (valor_mtrs * 0.02908)
 st.write(f"El valor de los MOA son : {e}")
 
 st.subheader("Sistema Imperial")
@@ -28,8 +28,8 @@ st.subheader("Sistema Imperial")
 c = math.atan((value_inch / 36) / value_yd)
 st.write(f"El valor de los radianes es : {c}")
 
-d = c * 1000
+d = (caida_inch / 36) / value_yd * 1000
 st.write(f"El valor de los Miliradianes es : {d}")
 
-f = (value_yd / 36) / caida_inch
+f = caida_inch / ((value_yd / 100) * 1.047)
 st.write(f"El valor de los MOA son : {f}")
