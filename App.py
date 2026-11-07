@@ -45,7 +45,7 @@ st.sidebar.header("📥 Parámetros de Tiro")
 unidad_distancia = st.sidebar.selectbox("Unidad de distancia", ["Yardas", "Metros"])
 unidad_desviacion = st.sidebar.selectbox("Unidad de desviación (Caída/Deriva)", ["Pulgadas", "Centímetros"])
 
-st.sidebar.separator()
+st.sidebar.divider()
 
 # Inputs numéricos con rangos lógicos
 if unidad_distancia == "Yardas":
