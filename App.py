@@ -1,4 +1,13 @@
 import streamlit as st
-import sympy as sp
 
-st.markdown("# Calibración Matemática")
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.write("Contenido de la columna 1")
+    st.button("Botón 1")
+
+with col2:
+    st.write("Contenido de la columna 2")
+
+with col3:
+    st.write("Contenido de la columna 3")
