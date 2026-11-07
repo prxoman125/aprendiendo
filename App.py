@@ -3,4 +3,4 @@ import streamlit as st
 st.markdown("# Calibracion Matematica")
 
 st.sidebar.title("Menú de Configuración")
-a = st.number_input (label = "Distancia entre la mira y el objetivo", min_value = 1, max_value = 1500, value = 1, step = 1)
+    a = st.number_input (label = "Distancia entre la mira y el objetivo", min_value = 1, max_value = 1500, value = 1, step = 1)
