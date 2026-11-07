@@ -1,13 +1,5 @@
 import streamlit as st
 
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.write("Contenido de la columna 1")
-    st.button("Botón 1")
-
-with col2:
-    st.write("Contenido de la columna 2")
-
-with col3:
-    st.write("Contenido de la columna 3")
+st.sidebar.title("Menú de Configuración")
+distancia = st.sidebar.slider("Distancia (m)", 0, 1000, 100)
+unidad = st.sidebar.radio("Unidades", ["MOA", "MRAD"])
